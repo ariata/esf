@@ -1,0 +1,60 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 20, 2018, 2:55:23 PM
+    Author     : Ariad
+*/
+html{
+    background: #b9b9b9;
+}
+body{
+    background: white ;
+    width: 1200px!important;
+    margin: 0 auto!important;
+    overflow: visible !important;
+    color:#58595b;
+}
+
+.sinborder tr td, .sinborder tr{
+    border: none;
+    border-width: 0px!important;
+}
+.sinborder{
+    border :none;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    font-weight: normal;
+}
+
+.ui-widget .ui-widget, .ui-datatable table {
+    font-size: 12px;
+}
+
+.fondoTabla{
+    border: 1px solid #68727B;
+    background: #68727B url(/Viaticos/faces/javax.faces.resource/images/default.png?ln=primefaces-home) 50% 50% repeat-x;
+    font-weight: normal;
+    color: #ffffff;
+}
+.ui-button, button.ui-button.ui-state-default, .ui-button.ui-state-default{
+    border: 1px solid #1f89ce;
+    color: #fff;
+    background: #186ba0;
+}
+
+.ui-dialog .ui-dialog-titlebar {
+    margin: 0px 20px 5px 20px;
+}
+
+.ui-fileupload-content .ui-progressbar {
+    display: none!important;
+}
+
+
+.botonGrado{
+    width: 120px;
+    height: 90px;
+}

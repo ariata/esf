@@ -1,0 +1,53 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 24, 2018, 10:14:07 PM
+    Author     : Ariad
+*/
+
+.ui-outputlabel, table, .boton, span, .ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button,
+.ui-widget{
+    font-family: 'Noto Sans', sans-serif;;
+    font-size: 11pt;
+}
+.titulo12{
+    font-size: 12px!important;
+    color: #186ba0;
+    font-weight: bolder;
+}
+.titulo15{
+    font-size: 15px!important;
+    color: #186ba0;
+    font-weight: bolder;
+}
+
+.titulo20{
+    font-size: 20px!important;
+    color: #186ba0;
+    font-weight: bolder;
+}
+.titulo30{
+    font-size: 30px!important;
+    color: #186ba0;
+    font-weight: bolder;
+}
+
+.colorVerde{
+    color: forestgreen;
+    font-weight: bolder;
+}
+.colorAmarillo{
+    color: gold;
+    font-weight: bolder;
+}
+.colorRojo{
+    color: red;
+    font-weight: bolder;
+}
+.colorBlue{
+    color: #1f89ce;
+    font-weight: bolder;
+}

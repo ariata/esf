@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/Ariad/Documents/NetBeansProjects/ESFIR/src/java/com/model/mapping/Alumno.hbm.xml</file>
+            <file>file:/C:/Users/Ariad/Documents/NetBeansProjects/ESFIR/src/java/com/util/ConexionMYSQL.java</file>
+            <file>file:/C:/Users/Ariad/Documents/NetBeansProjects/ESFIR/src/java/resources/hibernate.cfg.xml</file>
+            <file>file:/C:/Users/Ariad/Documents/NetBeansProjects/ESFIR/src/java/com/bean/LoginBean.java</file>
+            <file>file:/C:/Users/Ariad/Documents/NetBeansProjects/ESFIR/src/java/com/dao/Dao.java</file>
+            <file>file:/C:/Users/Ariad/Documents/NetBeansProjects/ESFIR/src/java/com/dto/Alumno.java</file>
+            <file>file:/C:/Users/Ariad/Documents/NetBeansProjects/ESFIR/src/java/com/util/HibernateUtil.java</file>
+        </group>
+    </open-files>
+</project-private>

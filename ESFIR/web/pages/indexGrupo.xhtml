@@ -1,0 +1,97 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <ui:include src="head.xhtml" ></ui:include>
+    <h:body>
+        <h:form id="formGrupo">
+            <p:growl id="messages"/>
+            <p:layout fullPage="true">
+                <p:layoutUnit position="north">
+                    <p:panelGrid id="panTop" style="width: 100%" styleClass="sinborder">
+                        <p:row>
+                            <p:column>
+                                <p:graphicImage value="../images/logo.png" style="width: 100px"/>
+                            </p:column>
+                            <p:column>
+                                <p:commandButton styleClass="boton" 
+                                                 value="Salir" actionListener="#{loginBean.logOut}">
+                                </p:commandButton>
+                            </p:column>
+                        </p:row>
+                    </p:panelGrid>
+                </p:layoutUnit>
+                <p:layoutUnit position="center">
+                    <p:panelGrid id="panGrado" style="width: 100%" styleClass="sinborder">
+                        <p:row>
+                            <p:column>
+                                <p:commandButton styleClass="botonGrado" 
+                                                 value="A" actionListener="#{loginBean.handlerGrupo}">
+                                    <f:attribute name="grupo" value="A"/>
+                                </p:commandButton>
+                            </p:column>
+                            <p:column>
+                                <p:commandButton styleClass="botonGrado" 
+                                                 value="B" actionListener="#{loginBean.handlerGrupo}">
+                                    <f:attribute name="grupo" value="B"/>
+                                </p:commandButton>
+                            </p:column>
+                            <p:column>
+                                <p:commandButton styleClass="botonGrado" 
+                                                 value="C" actionListener="#{loginBean.handlerGrupo}">
+                                    <f:attribute name="grupo" value="C"/>
+                                </p:commandButton>
+                            </p:column>
+                            <p:column>
+                                <p:commandButton styleClass="botonGrado" 
+                                                 value="D" actionListener="#{loginBean.handlerGrupo}">
+                                    <f:attribute name="grupo" value="D"/>
+                                </p:commandButton>
+                            </p:column>
+                            <p:column>
+                                <p:commandButton styleClass="botonGrado" 
+                                                 value="E" actionListener="#{loginBean.handlerGrupo}">
+                                    <f:attribute name="grupo" value="E"/>
+                                </p:commandButton>
+                            </p:column>
+                        </p:row>
+                        <p:row>
+                            <p:column>
+                                <p:commandButton styleClass="botonGrado" 
+                                                 value="F" actionListener="#{loginBean.handlerGrupo}">
+                                    <f:attribute name="grupo" value="F"/>
+                                </p:commandButton>
+                            </p:column>
+                            <p:column>
+                                <p:commandButton styleClass="botonGrado" 
+                                                 value="G" actionListener="#{loginBean.handlerGrupo}">
+                                    <f:attribute name="grupo" value="G"/>
+                                </p:commandButton>
+                            </p:column>
+                            <p:column>
+                                <p:commandButton styleClass="botonGrado" 
+                                                 value="H" actionListener="#{loginBean.handlerGrupo}">
+                                    <f:attribute name="grupo" value="H"/>
+                                </p:commandButton>
+                            </p:column>
+                            <p:column>
+                                <p:commandButton styleClass="botonGrado" 
+                                                 value="I" actionListener="#{loginBean.handlerGrupo}">
+                                    <f:attribute name="grupo" value="I"/>
+                                </p:commandButton>
+                            </p:column>
+                            <p:column>
+                                <p:commandButton styleClass="botonGrado" 
+                                                 value="J" actionListener="#{loginBean.handlerGrupo}">
+                                    <f:attribute name="grupo" value="J"/>
+                                </p:commandButton>
+                            </p:column>
+                        </p:row>
+                    </p:panelGrid>
+                </p:layoutUnit>
+            </p:layout>
+        </h:form>
+    </h:body>
+</html>
+

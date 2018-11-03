@@ -1,0 +1,25 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:p="http://primefaces.org/ui"
+                xmlns:ui="http://java.sun.com/jsf/facelets">
+    <ui:include src="head.xhtml" ></ui:include>
+    <h:form id="formTop">
+        <p:panelGrid id="panTop" style="width: 100%" styleClass="sinborder">
+            <p:row>
+                <p:column>
+                    <p:graphicImage value="/images/logo.png" style="width: 100px"/>
+                </p:column>
+                
+                <p:column style="width: 10%;">
+                    <p:outputLabel styleClass="titulo17" value="Nombre del usuario / #{loginBean.usuario}"/>
+                </p:column>
+                <p:column>
+                    <p:commandButton styleClass="boton" 
+                                     value="Salir" actionListener="#{loginBean.logOut}">
+                    </p:commandButton>
+                </p:column>
+            </p:row>
+        </p:panelGrid>
+    </h:form>
+</ui:composition>

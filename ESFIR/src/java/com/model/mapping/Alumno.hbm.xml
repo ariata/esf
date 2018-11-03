@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.modelo.mapping">
+    <class name="com.dto.Alumno" table="alumno">
+        <id column="ID" name="id" type="java.lang.String">
+            <generator class="assigned"/>
+        </id>
+        
+        <property column="numero_lista" name="numeroLista" type="java.lang.String"/>
+        <property column="nombre" name="nombre" type="java.lang.String"/>
+        <property column="grado" name="grado" type="java.lang.String"/>
+        <property column="grupo" name="grupo" type="java.lang.String"/>
+    </class>
+</hibernate-mapping>

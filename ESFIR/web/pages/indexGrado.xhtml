@@ -1,0 +1,54 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <ui:include src="head.xhtml" ></ui:include>
+    <h:body>
+        <h:form id="formGrupo">
+            <p:growl id="messages"/>
+            <p:layout fullPage="true">
+                <p:layoutUnit position="north">
+                    <p:panelGrid id="panTop" style="width: 100%" styleClass="sinborder">
+                        <p:row>
+                            <p:column>
+                                <p:graphicImage value="/images/logo.png" style="width: 100px"/>
+                            </p:column>
+                            <p:column>
+                                <p:commandButton styleClass="boton" 
+                                                 value="Salir" actionListener="#{loginBean.logOut}">
+                                </p:commandButton>
+                            </p:column>
+                        </p:row>
+                    </p:panelGrid>
+                </p:layoutUnit>
+                <p:layoutUnit position="center">
+                    <p:panelGrid id="panGrado" style="width: 100%" styleClass="sinborder">
+                        <p:row>
+                            <p:column>
+                                <p:commandButton styleClass="botonGrado" 
+                                                 value="Primero" actionListener="#{loginBean.handlerGrado}">
+                                    <f:attribute name="grado" value="1"/> 
+                                </p:commandButton>
+                            </p:column>
+                            <p:column>
+                                <p:commandButton styleClass="botonGrado" 
+                                                 value="Segundo" actionListener="#{loginBean.handlerGrado}">
+                                    <f:attribute name="grado" value="2"/>
+                                </p:commandButton>
+                            </p:column>
+                            <p:column>
+                                <p:commandButton styleClass="botonGrado" 
+                                                 value="Tercero" actionListener="#{loginBean.handlerGrado}">
+                                    <f:attribute name="grado" value="3"/>
+                                </p:commandButton>
+                            </p:column>
+                            
+                        </p:row>
+                    </p:panelGrid>
+                </p:layoutUnit>
+            </p:layout>
+        </h:form>  
+    </h:body>
+</html>
+
